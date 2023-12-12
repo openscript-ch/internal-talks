@@ -1,0 +1,19 @@
+{
+  "name": "internal-talks-root",
+  "version": "1.0.0",
+  "description": "Our internal talks.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm dev -r",
+    "build": "pnpm -r build",
+    "postbuild": "node scripts/build-index.js"
+  },
+  "dependencies": {
+    "@openscript-ch/slidev-theme": "^0.4.0",
+    "@slidev/cli": "^0.45.0"
+  },
+  "keywords": [],
+  "author": "openscript GmbH",
+  "packageManager": "pnpm@8.12.0"
+}
