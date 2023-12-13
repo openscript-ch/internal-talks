@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "pnpm dev -r",
     "build": "pnpm -r build",
-    "postbuild": "node scripts/build-index.js"
+    "postbuild": "node scripts/build-index.js",
+    "generate": "plop"
   },
   "dependencies": {
     "@openscript-ch/slidev-theme": "^0.4.0",
@@ -15,5 +16,8 @@
   },
   "keywords": [],
   "author": "openscript GmbH",
-  "packageManager": "pnpm@8.12.0"
+  "packageManager": "pnpm@8.12.0",
+  "devDependencies": {
+    "plop": "^4.0.0"
+  }
 }
