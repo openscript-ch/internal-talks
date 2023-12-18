@@ -5,14 +5,13 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "pnpm dev -r",
     "build": "pnpm -r build",
     "postbuild": "node scripts/build-index.js",
     "generate": "plop"
   },
   "dependencies": {
-    "@openscript-ch/slidev-theme": "^0.4.0",
-    "@slidev/cli": "^0.45.0"
+    "@openscript-ch/slidev-theme": "^0.5.5",
+    "@slidev/cli": "^0.46.1"
   },
   "keywords": [],
   "author": "openscript GmbH",
